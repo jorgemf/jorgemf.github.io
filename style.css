@@ -10,6 +10,7 @@ body {
     background-color: #F9F9F9;
     font-family: 'Quicksand', sans-serif;
     color: #292929;
+    margin: 0;
 }
 
 header {
@@ -34,7 +35,7 @@ header menu li {
 }
 
 footer {
-    font-style: oblique;
+    /*font-style: oblique;*/
     color: #FFFFFF;
     background-color: #5F9EA0;
     padding-top: 0.5em;
@@ -119,4 +120,10 @@ ul.navigation_menu li {
 
 .small {
     font-size: 0.9em;
+}
+
+pre {
+    border: solid 1px #DAE6E6;
+    padding: 1.5em;
+    background: #e9f2f2;
 }
