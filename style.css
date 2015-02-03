@@ -12,6 +12,9 @@ body {
     color: #292929;
     margin: 0;
 }
+p{
+    max-width: 700px;
+}
 
 header {
     color: #FFFFFF;
@@ -46,17 +49,19 @@ footer {
 
 .container {
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main_column {
     display: inline-block;
-    width: 700px;
+    max-width: 700px;
 }
 
 .secondary_column {
     display: inline-block;
-    width: 300px;
+    max-width: 300px;
 }
 
 .left {
