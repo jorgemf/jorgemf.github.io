@@ -16,6 +16,10 @@ p{
     max-width: 700px;
 }
 
+footer p{
+    max-width: 100%;
+}
+
 header {
     color: #FFFFFF;
     background-color: #5F9EA0;
