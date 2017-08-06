@@ -1,1 +1,9 @@
+title: Jorge MF - Machine Learning Researcher
+#description:
+#google_analytics:
 theme: jekyll-theme-minimal
+exclude:
+  - 'old_web'
+  - 'jorgemf.github.io.iml'
+  - 'Gemfile'
+  - 'Gemfile.lock'
