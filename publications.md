@@ -4,16 +4,16 @@ title: Publications
 navigation_weight: 4
 ---
 
-_See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)_
+<small><em>See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)</em></small>
 
 ## 2012
 
 **Towards imitation of human driving style in car racing games** [**[PDF](https://link.springer.com/chapter/10.1007%2F978-3-642-32323-2_12)**]  
-_Jorge Muñoz_, German Gutierrez, Araceli Sanchis 
+_Jorge Muñoz_, German Gutierrez, Araceli Sanchis  
 Believable Bots, 289-313, Springer Berlin Heidelberg 
 
 **A machine consciousness approach to the design of human-like bots** [**[PDF](https://link.springer.com/chapter/10.1007/978-3-642-32323-2_7/fulltext.html)**]  
-Raul Arrabales, _Jorge Muñoz_, Agapito Ledezma, German Gutierrez, Araceli Sanchis 
+Raul Arrabales, _Jorge Muñoz_, Agapito Ledezma, German Gutierrez, Araceli Sanchis  
 Believable bots, 171-191, Springer Berlin Heidelberg
 
 ## 2011
