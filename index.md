@@ -8,5 +8,5 @@ navigation_weight: 1
 
 > I am a remote Machine Learning Researcher/Engineer for different startups of San Francisco. I have an MBA and I have also pursued a PhD in Artificial Intelligence. I was graduate with first class honors and I have been awarded several by the research and work done, both locally and internationally. I love maths since I was very young and I have been finalist in s couple international math contest I joined in by hobby.  
 
-> My goals in live are being happy, unveil the secrets of the human mind and create Artificial Intelligence thanks to maths.
+> My goals in life are being happy, unveil the secrets of the human mind and create Artificial Intelligence thanks to maths.
 

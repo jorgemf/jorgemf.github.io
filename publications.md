@@ -13,7 +13,7 @@ _Jorge Muñoz_, German Gutierrez, Araceli Sanchis
 Believable Bots, 289-313, Springer Berlin Heidelberg 
 
 **A machine consciousness approach to the design of human-like bots** [**[PDF](https://link.springer.com/chapter/10.1007/978-3-642-32323-2_7/fulltext.html)**]  
-Raul Arrabales, _Jorge Muñoz_, Agapito Ledezma, German Gutierrez, Araceli Sanchis  
+Raúl Arrabales, _Jorge Muñoz_, Agapito Ledezma, German Gutierrez, Araceli Sanchis  
 Believable bots, 171-191, Springer Berlin Heidelberg
 
 ## 2011
