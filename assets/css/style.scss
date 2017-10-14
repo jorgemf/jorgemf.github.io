@@ -12,7 +12,11 @@
 }
 
 body {
-    font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 17px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+small {
+    font-size: 13px;
 }
 
 .icon > svg {
@@ -41,7 +45,7 @@ a:hover {
 }
 
 div.wrapper {
-    max-width: 960px;
+    max-width: 700px;
     margin: auto;
 }
 

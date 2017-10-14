@@ -7,7 +7,7 @@ github: "https://github.com/jorgemf/kaggle_redefining_cancer_treatment"
 medium: "https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-by-deep-learning-f6c64a366fff"
 ---
 
-* work in progress *
+**work in progress**
 
 > Disclaimer: This work has been supported by [Good AI](http://goodailab.com) Lab and all the experiments has been trained using their platform [TensorPort](https://tensorport.com).
 
