@@ -114,3 +114,6 @@ nav.main-nav ul .active {
         float: none;
     }
 }
+
+tbody tr:nth-child(odd) {background: #fafafa}
+tbody tr:hover {background: #f2f2f2}
