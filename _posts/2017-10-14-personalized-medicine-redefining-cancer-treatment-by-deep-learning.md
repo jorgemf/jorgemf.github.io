@@ -1,7 +1,7 @@
 ---
 layout: mylayout
-title:  "Personalized Medicine: Redefining Cancer Treatment by deep learning"
-summary: "This is the summary of the post"
+title:  "Personalized Medicine: Redefining Cancer Treatment with deep learning"
+summary: "We propose a solution based on an different recurrent neural networks for a kaggle challenge where we have to classify papers into different categories. More specifically, we have to classify into different mutation based on a gene and the text of a paper."
 categories: [Text Classification]
 github: "https://github.com/jorgemf/kaggle_redefining_cancer_treatment"
 medium: "https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-by-deep-learning-f6c64a366fff"
@@ -68,7 +68,7 @@ In [Hierarchical Attention Networks (HAN) for Document Classification](https://w
 
 ## Dataset
 
-The dataset can be found in https://www.kaggle.com/c/msk-redefining-cancer-treatment/data. It contains basically the text of a paper, the gen related with the mutation and the variation. One text can have multiple genes and variations, so we will need to add this information to our models somehow.
+The dataset can be found in [https://www.kaggle.com/c/msk-redefining-cancer-treatment/data](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data). It contains basically the text of a paper, the gen related with the mutation and the variation. One text can have multiple genes and variations, so we will need to add this information to our models somehow.
 
 One of the things we need to do first is to clean the text as it from papers and have a lot of references and things that are not relevant for the task. The second thing we can notice from the dataset is that the variations seem to follow some type of pattern. Although we might be wrong we will transform the variations in a sequence of symbols in order to let the algorithm discover this patterns in the symbols if it exists. We would get better results understanding better the variants and how to encode them correctly.
 
