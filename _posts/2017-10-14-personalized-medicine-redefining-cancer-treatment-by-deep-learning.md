@@ -4,7 +4,7 @@ title:  "Personalized Medicine: Redefining Cancer Treatment with deep learning"
 summary: "We propose a solution based on an different recurrent neural networks for a kaggle challenge where we have to classify papers into different categories. More specifically, we have to classify into different mutation based on a gene and the text of a paper."
 categories: [Text Classification]
 github: "https://github.com/jorgemf/kaggle_redefining_cancer_treatment"
-medium: "https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-by-deep-learning-f6c64a366fff"
+medium: "https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff"
 ---
 
 > Disclaimer: This work has been supported by [Good AI](http://goodailab.com) Lab and all the experiments has been trained using their platform [TensorPort](https://tensorport.com).
@@ -493,14 +493,6 @@ Launch a job in TensorPort. You have to select the last commit (number 0). The l
 
 ```sh
 tport run --name "cnn-with_end-3000" --project "$TPORT_USER/$PROJECT:$(git rev-parse HEAD)" --datasets "$TPORT_USER/$DATASET:$(cd data/generated/ && git rev-parse HEAD)" --package-path "src.rnn" --module "text_classification_model_cnn" --python-version 2 --tf-version "1.2.0" --requirements "requirements.txt" --distributed --worker-replicas 4 --worker-type "p2.xlarge" --ps-replicas 3 --ps-type "t2.small" --time-limit "24h00m" --description ""
-```
-
-#### QRNN
-
-Launch a job in TensorPort. You have to select the last commit (number 0). The last worker is used for validation, you can check the results in the logs.
-
-```sh
-tport run --name "qrnn-with_end-3000" --project "$TPORT_USER/$PROJECT:$(git rev-parse HEAD)" --datasets "$TPORT_USER/$DATASET:$(cd data/generated/ && git rev-parse HEAD)" --package-path "src.rnn" --module "text_classification_model_qrnn" --python-version 2 --tf-version "1.2.0" --requirements "requirements.txt" --distributed --worker-replicas 4 --worker-type "p2.xlarge" --ps-replicas 3 --ps-type "t2.small" --time-limit "24h00m" --description ""
 ```
 
 #### HAN
