@@ -15,7 +15,7 @@ navigation_weight: 2
 {% endif %}
 
 **[{{ post.title }}]({{ post.url }})**      
-<small>{% if post.github %}[GitHub](post.github) | {% endif %}{% if post.medium %}[Medium](post.medium) | {% endif %}{{ post.date | date: "%d %B %Y" }}{% if post.categories %}<i>{% for category in post.categories %} | {{ category }} {% endfor %}</i>{% endif %}</small>  
+<small>{% if post.github %}[GitHub]({% post.github %}) | {% endif %}{% if post.medium %}[Medium]({% post.medium %}) | {% endif %}{{ post.date | date: "%d %B %Y" }}{% if post.categories %}<i>{% for category in post.categories %} | {{ category }} {% endfor %}</i>{% endif %}</small>  
 {{ post.summary }}
 
 {% endfor %}
