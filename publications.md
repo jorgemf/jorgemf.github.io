@@ -6,6 +6,11 @@ navigation_weight: 4
 
 <small><em>See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)</em></small>
 
+## 2017
+
+**Personalized Medicine: Redefining Cancer Treatment with deep learning** [**[HTML](https://jorgemf.github.io/text%20classification/2017/10/14/personalized-medicine-redefining-cancer-treatment-by-deep-learning.html)**] [**[GitHub](https://github.com/jorgemf/kaggle_redefining_cancer_treatment)**] [**[Medium](https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff)**]  
+_Jorge Muñoz_
+
 ## 2012
 
 **Towards imitation of human driving style in car racing games** [**[PDF](https://link.springer.com/chapter/10.1007%2F978-3-642-32323-2_12)**]  

@@ -1,7 +1,7 @@
 ---
 layout: mylayout
 title: Research Projects
-navigation_weight: 2
+#navigation_weight: 
 ---
 
 <small><em>Sorted by date, you can also browse them by [tags]({{ site.baseurl }}/categories)</em></small>
