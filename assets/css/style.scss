@@ -3,16 +3,8 @@
 
 @import "{{ site.theme }}";
 
-@font-face {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
 body {
-    font: 17px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/1.5 "Open+Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 small {
@@ -35,12 +27,12 @@ small {
 }
 
 a {
-    color: #5F9EA0;
+    color: #00827F;
     text-decoration: none;
 }
 
 a:hover {
-    color: #5F9EA0;
+    color: #00827F;
     text-decoration: underline;
     font-weight: inherit;
 }
@@ -116,4 +108,4 @@ nav.main-nav ul .active {
 }
 
 tbody tr:nth-child(odd) {background: #fafafa}
-tbody tr:hover {background: #f2f2f2}
+//tbody tr:hover {background: #f0f0f0}
