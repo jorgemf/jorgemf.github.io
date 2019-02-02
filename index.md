@@ -4,7 +4,9 @@ title: About Me
 navigation_weight: 1
 ---
 
+{% comment %}
 <img src="{{ site.url }}/assets/me2018.jpg"  width="200px" style="float: right; margin: 1em 0.4em 0.4em 0.8em"/>
+{% endcomment %}
 
 > I am Deep Learning Researcher, founder and CEO at [Serendeepia](http://serendeepia.com/). Before I worked as remote Machine Learning Researcher/Engineer for different startups of San Francisco, London and Madrid. I have an MBA and I have also pursued a PhD in Artificial Intelligence. I was graduate with first class honors and I have been awarded several by the research and work done, both locally and internationally. I love maths since I was very young and I have been finalist in a couple international math contest I joined in by hobby.  
 
