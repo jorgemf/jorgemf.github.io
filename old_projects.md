@@ -1,7 +1,6 @@
 ---
 layout: mylayout
 title: Old projects
-navigation_weight: 5
 ---
 _All the projects listed here are developed under [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)._
 
@@ -48,7 +47,7 @@ Scrip to compile TensorFlow serving with CUDA support
 ## [C/C++ evolutionary library](https://github.com/jorgemf/c-evolutionary-library)
 
 Some evolutionary algorithms written in C++:
--  Genetic Algorithm (GA)
+- Genetic Algorithm (GA)
 - Multi-objective Evolutionary Algorithm (MOEA)
 - Artificial Immune System (AIS)
 - Feed forward Neural Networks with Backpropagation Learning (NN BP)
