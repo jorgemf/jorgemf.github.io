@@ -8,8 +8,8 @@ navigation_weight: 4
 
 ## 2021
 
-**Predicting microbiomes through a deep latent space** [**[PDF](https://academic.oup.com/bioinformatics/article-pdf/37/10/1444/38663810/btaa971.pdf)**]
-García-Jiménez, Beatriz, _Muñoz, Jorge_, Cabello, S., Medina, J., & Wilkinson,
+**Predicting microbiomes through a deep latent space** [**[PDF](https://academic.oup.com/bioinformatics/article-pdf/37/10/1444/38663810/btaa971.pdf)**]  
+García-Jiménez, Beatriz, _Muñoz, Jorge_, Cabello, S., Medina, J., & Wilkinson  
 Bioinformatics, 37(10), 1444-1451.
 
 ## 2017
