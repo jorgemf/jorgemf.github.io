@@ -6,6 +6,12 @@ navigation_weight: 4
 
 <small><em>See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)</em></small>
 
+## 2021
+
+**Predicting microbiomes through a deep latent space** [**[PDF](https://academic.oup.com/bioinformatics/article-pdf/37/10/1444/38663810/btaa971.pdf)**]
+García-Jiménez, Beatriz, _Muñoz, Jorge_, Cabello, S., Medina, J., & Wilkinson,
+Bioinformatics, 37(10), 1444-1451.
+
 ## 2017
 
 **Personalized Medicine: Redefining Cancer Treatment with deep learning** [**[HTML](https://jorgemf.github.io/text%20classification/2017/10/14/personalized-medicine-redefining-cancer-treatment-by-deep-learning.html)**] [**[GitHub](https://github.com/jorgemf/kaggle_redefining_cancer_treatment)**] [**[Medium](https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff)**]  
