@@ -4,7 +4,7 @@ title: About Me
 navigation_weight: 1
 ---
 
-<img src="{{ site.url }}/assets/me2018.jpg"  width="200px" style="float: right; margin: 1em 0.4em 0.4em 0.8em"/>
+<img src="{{ site.url }}/assets/me2021.jpg"  width="200px" style="float: right; margin: 1em 0.4em 0.4em 0.8em"/>
 
 > As a dedicated Deep Learning Researcher and Engineer, my passion for Artificial Intelligence has driven my academic and professional pursuits. Graduating with first-class honors in Computer Science Engineering in 2006, I have continued to expand my knowledge and expertise in the field by obtaining a Ph.D. in Artificial Intelligence, an MBA and a degree in Mathematics.
 > 
