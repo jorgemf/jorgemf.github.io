@@ -12,5 +12,5 @@ I have been working on different projects in my spare time. Some of them are lis
   An implementation of Hash Nerf in Pytorch.
 - **[Stable Diffusion](https://github.com/jorgemf/stable-diffusion)**  
   An implementation of diffusion models to work in a 4090 GPU.
-- **[LLM transfomer](https://github.com/jorgemf/LLM-transformer)**  
+- **[LLM transformer](https://github.com/jorgemf/LLM-transformer)**  
   Code completion using a transformer model for kotlin (but can be trained in other languages). It works in a 4090 GPU.
