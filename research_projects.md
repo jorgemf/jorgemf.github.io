@@ -1,26 +1,16 @@
 ---
 layout: mylayout
-title: Research Projects
-#navigation_weight: 
+title: Projects
+navigation_weight: 4
 ---
 
-<small><em>Sorted by date, you can also browse them by [tags]({{ site.baseurl }}/categories)</em></small>
+### Current side projects
 
-{% assign sorted_posts = site.posts | sort: date | reverse %}
-{% for post in sorted_posts %}
-{% assign currentDate = post.date | date: "%Y" %}
-{% if currentDate != myDate %}
-### {{ currentDate }}
-{% assign myDate = currentDate %}
-{% endif %}
+I have been working on different projects in my spare time. Some of them are listed here.
 
-**[{{ post.title }}]({{ post.url }})**      
-<small>{% if post.github %}[GitHub]({{ post.github }}) | {% endif %}{% if post.medium %}[Medium]({{ post.medium }}) | {% endif %}{{ post.date | date: "%d %B %Y" }}{% if post.categories %}<i>{% for category in post.categories %} | {{ category }} {% endfor %}</i>{% endif %}</small>  
-{{ post.summary }}
-
-{% endfor %}
-
-### Other projects
-
-**[TensoPort template](https://github.com/jorgemf/tensorport-template)**  
-Template to train TensorFlow models into TensorPort
+- **[HashNeRF](https://github.com/jorgemf/NeRF)**  
+  An implementation of Hash Nerf in Pytorch.
+- **[Stable Diffusion](https://github.com/jorgemf/stable-diffusion)**  
+  An implementation of diffusion models to work in a 4090 GPU.
+- **[LLM transfomer](https://github.com/jorgemf/LLM-transformer)**  
+  Code completion using a transformer model for kotlin (but can be trained in other languages). It works in a 4090 GPU.
