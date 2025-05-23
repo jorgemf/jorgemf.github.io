@@ -19,17 +19,14 @@ navigation_weight: 1
 
 <div class="main-sections">
   <a class="section-card section-link background-cv" href="/cv.html">
-    <div class="section-card-overlay"></div>
     <h4>CV</h4>
     <p>AI researcher, Software engineer & Mathematician.<br>+20 years of experience.</p>
   </a>
   <a class="section-card section-link background-projects" href="/projects.html">
-    <div class="section-card-overlay"></div>
     <h4>Projects</h4>
     <p>Personal and relevant projects: LLMs, diffussion, Geometric Deep Learning, gaussian splating, etc.</p>
   </a>
   <a class="section-card section-link background-pubs" href="/publications.html">
-    <div class="section-card-overlay"></div>
     <h4>Publications</h4>
     <p>Scientific articles and publications in AI and Deep Learning.</p>
   </a>

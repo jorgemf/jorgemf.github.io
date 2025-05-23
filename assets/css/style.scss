@@ -47,7 +47,6 @@ a {
 
 a:hover, a:focus {
   color: #006963;
-  border-bottom: 2px solid #00827F;
   background: #e0f7f6;
   border-radius: 2px;
   text-decoration: none;
@@ -76,7 +75,7 @@ header h1 {
   font-family: 'Merriweather', 'Playfair Display', serif;
   font-size: 2.5em;
   margin-bottom: 0.2em;
-  margin-top: 1.5em;
+  margin-top: 1em;
   color: #00827F;
   font-weight: 700;
   line-height: 1.2;
@@ -384,22 +383,13 @@ footer {
   margin-bottom: 0.5em;
 }
 
-.section-link .section-card-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.25);
-  z-index: 1;
-  border-radius: 12px;
-  transition: background 0.2s;
-}
-
 .section-link h4,
 .section-link p {
   position: relative;
   z-index: 2;
   color: #fff;
   margin: 0.5em 0;
-  text-shadow: 0 2px 8px #0008;
+  text-shadow: 0 4px 8px #000;
 }
 
 .section-link:hover,
@@ -408,15 +398,10 @@ footer {
   box-shadow: 0 6px 24px #00827f44;
 }
 
-.section-link:hover .section-card-overlay {
-  background: rgba(0, 0, 0, 0.65);
-}
-
 .section-link:active {
   transform: scale(0.98);
 }
 
-// --- Contact section icons ---
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -555,15 +540,7 @@ header h1 {
   margin: 0 auto;
   max-width: 700px;
   z-index: 2;
-  text-shadow:
-    -2px -2px 0 #fff,
-     2px -2px 0 #fff,
-    -2px  2px 0 #fff,
-     2px  2px 0 #fff,
-     0px  2px 0 #fff,
-     2px  0px 0 #fff,
-     0px -2px 0 #fff,
-    -2px  0px 0 #fff;
+  text-shadow: 0 4px 8px #fff;
 }
 
 /* Ajuste para hero-section con imagen (index.md) */
@@ -652,18 +629,41 @@ hr {
   margin: 2em 0;
 }
 
-
-
 .background-cv{
-  background-image: url('/assets/hero-cv.jpg');
+  background:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('/assets/hero-cv.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .background-pubs{
-  background-image: url('/assets/hero-pubs.jpg');
+  background:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('/assets/hero-pubs.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
+.background-projects:hover{
+  background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/assets/hero-projects.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.background-pubs:hover{
+  background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/assets/hero-pubs.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.background-cv:hover{
+  background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/assets/hero-cv.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
 .background-projects{
-  background-image: url('/assets/hero-projects.jpg');
+  background:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('/assets/hero-projects.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-section-about{
@@ -685,6 +685,11 @@ hr {
 }
 
 @media (max-width: 700px) {
+
+  header h1 {
+    margin: 0;
+  }
+
   .main-container {
     padding: 0px;
   }
@@ -705,11 +710,11 @@ hr {
     align-items: stretch;
     gap: 1.5em;
     margin: 2em 0;
+    
   }
 
   .section-card,
-  .section-link,
-  .section-card-overlay {
+  .section-link{
     width: auto;
     max-width: 100%;
     min-width: 0;
@@ -989,11 +994,11 @@ hr {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
-  
+
   .cv-table{
     margin: 0.5em 0em;
   }
-  
+
   .cv-table, .cv-table thead, .cv-table tbody, .cv-table tr, .cv-table td, .cv-table th {
     display: block;
     width: 100%;
