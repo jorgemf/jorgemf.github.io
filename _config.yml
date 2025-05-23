@@ -1,8 +1,9 @@
-title: Jorge MF - Deep Learning Researcher
-#google_analytics:
-theme: jekyll-theme-minimal
+title: Jorge | AI Dev & Researcher
 exclude:
   - 'old_web'
   - 'jorgemf.github.io.iml'
   - 'Gemfile'
   - 'Gemfile.lock'
+  - '.cursorrules'
+  - 'ai'
+  - 'README.md'

@@ -1,15 +1,15 @@
 ---
-layout: mylayout
+layout: mylayout_pubs
 title: Publications
 navigation_weight: 4
 ---
 
-<small><em>See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)</em></small>
+__See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)__
 
 ## 2021
 
 **Predicting microbiomes through a deep latent space** [**[PDF](https://academic.oup.com/bioinformatics/article-pdf/37/10/1444/38663810/btaa971.pdf)**]  
-García-Jiménez, Beatriz, _Muñoz, Jorge_, Cabello, S., Medina, J., & Wilkinson  
+García-Jiménez, Beatriz; _Muñoz, Jorge_; Cabello, S.; Medina, J.; & Wilkinson  
 Bioinformatics, 37(10), 1444-1451.
 
 ## 2017
@@ -57,3 +57,9 @@ June 2009, Proceedings 10th International Work-Conference on Artificial Neural N
 _Jorge Muñoz_, German Gutierrez, Araceli Sanchis  
 May 2009, Proceedings 2009 IEEE Congress on Evolutionary Computation, Trondheim, Norway
 
+
+## 2008
+
+**Evolutionary genetic algorithms in a constraint satisfaction problem: Puzzle Eternity I** [**[PDF](http://users.encs.concordia.ca/~kharma/coen6321/Papers/EternityGA%20(1).pdf)**]  
+_Jorge Muñoz_, German Gutierrez, Araceli Sanchis  
+May 2008, Proceedings 2008 IEEE Congress on Evolutionary Computation, Trondheim, Norway

@@ -2,6 +2,7 @@
 layout: mylayout
 title: Old projects
 ---
+
 _All the projects listed here are developed under [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)._
 
 **None of the projects are maintained anymore.**
@@ -52,3 +53,6 @@ Some evolutionary algorithms written in C++:
 - Artificial Immune System (AIS)
 - Feed forward Neural Networks with Backpropagation Learning (NN BP)
 - Recurrent Neural Networks with Backpropagation Through Time learning method (rNN BPTT)
+
+
+</div>
