@@ -94,12 +94,6 @@ header a small {
   display: inline;
 }
 
-header ul {
-  position: absolute;
-  right: 50px;
-  top: 52px;
-}
-
 nav.main-nav ul {
   list-style-type: none;
   margin: 0;
@@ -204,8 +198,8 @@ nav.main-nav {
 nav.main-nav ul {
   display: flex;
   justify-content: center;
-  gap: 1.2em;
-  padding: 0.7em 0;
+  gap: 1.0em;
+  padding: 0.5em 0;
   list-style-type: none;
   margin: 0;
 }
@@ -219,7 +213,7 @@ nav.main-nav ul li a {
   font-weight: 600;
   font-size: 1.1em;
   border-radius: 4px;
-  padding: 0.3em 1em;
+  padding: 0.2em 1em;
   transition: background 0.2s, color 0.2s;
   display: block;
   text-align: center;
@@ -255,12 +249,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hero-section-projects{
-  background: linear-gradient(rgba(255,255,255,0.30), rgba(255,255,255,0.70)), url('/assets/hero-projects.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .hero-section-inner {
@@ -389,7 +377,7 @@ footer {
   z-index: 2;
   color: #fff;
   margin: 0.5em 0;
-  text-shadow: 0 4px 8px #000;
+  text-shadow: 4px 4px 8px #000;
 }
 
 .section-link:hover,
@@ -540,7 +528,7 @@ header h1 {
   margin: 0 auto;
   max-width: 700px;
   z-index: 2;
-  text-shadow: 0 4px 8px #fff;
+  text-shadow: 4px 4px 8px #fff;
 }
 
 /* Ajuste para hero-section con imagen (index.md) */
@@ -667,19 +655,26 @@ hr {
 }
 
 .hero-section-about{
-  background: linear-gradient(rgba(255,255,255,0.80), rgba(255,255,255,0.20)), url('/assets/hero-about.jpg');
+  background: linear-gradient(rgba(255,255,255,0.70), rgba(255,255,255,0.10)), url('/assets/hero-about.jpg');
   background-size: cover;
   background-position: center;
+  text-shadow: 4px 4px 8px #fff;
 }
 
 .hero-section-cv{
-  background: linear-gradient(rgba(255,255,255,0.80), rgba(255,255,255,0.20)), url('/assets/hero-cv.jpg');
+  background: linear-gradient(rgba(255,255,255,0.60), rgba(255,255,255,0.10)), url('/assets/hero-cv.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .hero-section-pubs{
-  background: linear-gradient(rgba(255,255,255,0.80), rgba(255,255,255,0.20)), url('/assets/hero-pubs.jpg');
+  background: linear-gradient(rgba(255,255,255,0.60), rgba(255,255,255,0.10)), url('/assets/hero-pubs.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section-projects{
+  background: linear-gradient(rgba(255,255,255,0.60), rgba(255,255,255,0.10)), url('/assets/hero-projects.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -696,7 +691,8 @@ hr {
 
   nav.main-nav ul {
     flex-direction: column;
-    gap: 0.5em;
+    gap: 0.2em;
+    padding: 0;
   }
 
   .hero-section-inner img {
@@ -725,8 +721,10 @@ hr {
   .contact-form-section {
     padding: 2em 1em 1.5em 1em;
   }
+
   nav.main-nav ul li a {
     border-radius: 0;
+    padding: 0.1em 0;
   }
 }
 
