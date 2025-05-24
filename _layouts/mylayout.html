@@ -28,7 +28,8 @@
     </div>
     <section>
         {{ content }}
-
+        
+        {% if page.title != "Contact" %}
         <div class="cta-contact">
           <div class="cta-contact-inner">
             <h3>Want to get in touch?</h3>
@@ -36,6 +37,7 @@
             <a href="/contact.html" class="button">Contact me</a>
           </div>
         </div>
+        {% endif %}
     </section>
     <footer>
 
