@@ -29,6 +29,30 @@
 
 ### 🧠 AI Behavior Rules
 - **Ask questions** whenever context is unclear.
-- **Do not invent** libraries or functions—use only verified Kotlin Multiplatform packages.
-- **Verify file paths** and module names exist before referencing.
+- **Do not invent** libraries or functions—use only verified Jekyll and GitHub Pages features.
+- **Verify file paths** and file names exist before referencing.
 - **Never delete or overwrite** existing code unless explicitly instructed or as part of a listed task.
+
+### 🚀 Development Workflow
+- Make changes locally
+- Test using the local development server
+- Commit and push changes to GitHub
+- GitHub Pages will automatically build and deploy the site
+
+### 🖼️ Content Management
+- Create new pages as Markdown (`.md`) files in the root directory
+- Add new blog posts to the `_posts/` directory with the filename format: `YYYY-MM-DD-title.md`
+- Store images in the appropriate subdirectory of `assets/`
+- All content pages should include proper Jekyll front matter (see `ai/CONFIGURATION.md` for details)
+- Use Markdown for content whenever possible
+- For blog posts, include categories in the front matter:
+  ```yaml
+  ---
+  layout: mylayout
+  title: Post Title
+  categories: [category1, category2]
+  ---
+  ```
+- When adding new content, ensure it follows the existing style and formatting
+- Optimize images before adding them to the repository
+- Keep content concise and well-structured
