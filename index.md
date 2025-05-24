@@ -31,11 +31,3 @@ navigation_weight: 1
     <p>Scientific articles and publications in AI and Deep Learning.</p>
   </a>
 </div>
-
-<div class="cta-contact">
-  <div class="cta-contact-inner">
-    <h3>Want to get in touch?</h3>
-    <p>I'm open to collaborations, project proposals, or just a chat about AI.</p>
-    <a href="/contact.html" class="button">Contact me</a>
-  </div>
-</div>
