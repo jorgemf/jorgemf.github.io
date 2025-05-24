@@ -22,7 +22,7 @@ navigation_weight: 1
     <h4>CV</h4>
     <p>AI researcher, Software engineer & Mathematician.<br>+20 years of experience.</p>
   </a>
-  <a class="section-card section-link background-projects" href="/projects.html">
+  <a class="section-card section-link background-projects" href="/research_projects.html">
     <h4>Projects</h4>
     <p>Personal and relevant projects: LLMs, diffussion, Geometric Deep Learning, gaussian splating, etc.</p>
   </a>

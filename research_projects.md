@@ -61,7 +61,7 @@ navigation_weight: 4
   </div>
 
   <div class="project-block">
-    <div class="project-image-alt"><img src="/assets/projects/difussion.jpg" alt="Stable Diffusion project image" /></div>
+    <div class="project-image-alt"><img src="/assets/projects/difussion.gif" alt="Stable Diffusion project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
       <h4><a href="https://github.com/jorgemf/stable-diffusion" target="_blank">Stable Diffusion</a></h4>
