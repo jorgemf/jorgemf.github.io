@@ -239,7 +239,7 @@ footer {
 
 .hero-section {
   width: 100vw;
-  min-height: 300px;
+  min-height: 640px;
   max-width: none;
   margin-top: 0;
   margin-left: 50%;
@@ -731,6 +731,11 @@ hr {
     border-radius: 0;
     padding: 0.1em 0;
   }
+
+  .hero-section {
+    min-height: 360px;
+  }
+
 }
 
 /* Project Cards Section */
@@ -1087,5 +1092,9 @@ hr {
     align-items: stretch;
     text-align: left;
     padding: 0em 1em;
+  }
+
+  .hero-section {
+    min-height: 300px;
   }
 }
