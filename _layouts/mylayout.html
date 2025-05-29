@@ -3,15 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>AI Dev & Researcher</title>
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/logo_j.svg' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="preload" as="image" href="/assets/hero-about.jpg" type="image/jpeg">
+    <link rel="preload" as="image" href="/assets/hero-cv.jpg" type="image/jpeg">
+    <link rel="preload" as="image" href="/assets/hero-pubs.jpg" type="image/jpeg">
+    <link rel="preload" as="image" href="/assets/hero-projects.jpg" type="image/jpeg">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="AI Dev & Researcher" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:image" content="{{ '/assets/logo.svg' | relative_url }}" />
-    <meta property="og:description" content="AI Developer & Researcher" />
+    <meta property="og:description" content="{{ site.description }}" />
+
 </head>
 <body>
 <div class="main-container">

@@ -9,7 +9,7 @@ navigation_weight: 1
     <div>
     <img src="/assets/me2021.jpg" width="180" alt="Jorge's photo"/>
     <h2>Hello, I'm Jorge</h2>
-    <h4>Deep Learning Researcher & Developer</h4>
+    <h3>Deep Learning Researcher & Developer</h3>
     <p>I’m a passionate Deep Learning Researcher and Engineer with a strong academic and professional background in Artificial Intelligence. After graduating with first-class honors in Computer Science Engineering, I continued to deepen my expertise through a Ph.D. in AI, an MBA, and a degree in Mathematics.</p>
     <p>Since 2015, I’ve worked remotely with innovative startups in San Francisco, London, Madrid, and beyond—adapting seamlessly to diverse teams and technologies. My approach is grounded in continuous learning, staying at the forefront of Deep Learning advancements, and applying them in impactful ways.</p>
     <p>I’m driven by excellence and innovation, and I’m eager to contribute to a forward-thinking organization where I can help build intelligent systems that make a difference.</p>
