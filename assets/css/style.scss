@@ -262,6 +262,9 @@ div.menu {
   box-shadow: 0 2px 8px $shadow-light;
   border-bottom: 1px solid $border-color;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav.main-nav {
@@ -353,7 +356,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 100%;
-  animation: heroFadeUp 1.1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: heroFadeUp 1.2s cubic-bezier(0.23, 1, 0.32, 1) both;
 
   img {
     float: right;
@@ -1043,6 +1046,12 @@ tbody tr {
   .contact-form-section {
     padding: 2em 1em 1.5em 1em;
   }
+  
+  div.menu {
+    position: relative !important;
+    top: auto !important;
+    z-index: auto !important;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1114,9 +1123,6 @@ tbody tr {
   }
 }
 
-// =========================
-// 0. Animations
-// =========================
 @keyframes heroFadeUp {
   0% {
     opacity: 0;
