@@ -6,7 +6,7 @@ Personal web page with jekyll
 gem update
 gem install bundler
 bundle update
-bundle exec jekyll server
+bundle exec jekyll serve
 ```
 
 ```sh   

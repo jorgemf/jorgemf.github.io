@@ -24,7 +24,7 @@ navigation_weight: 1
   </a>
   <a class="section-card section-link background-projects" href="/research_projects.html">
     <h4>Projects</h4>
-    <p>Personal and relevant projects: LLMs, diffussion, Geometric Deep Learning, gaussian splating, etc.</p>
+    <p>Personal and relevant projects: LLMs, diffusion, Geometric Deep Learning, Gaussian splatting, etc.</p>
   </a>
   <a class="section-card section-link background-pubs" href="/publications.html">
     <h4>Publications</h4>
