@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
   margin-bottom: 0.7em;
   letter-spacing: 0.01em;
+  text-wrap: balanced;
 }
 
 h2 {
@@ -118,6 +119,7 @@ h4, h5, h6 {
 p {
   margin-bottom: 1.2em;
   font-size: 1.07em;
+  text-wrap: balanced;
 }
 
 code, pre {
@@ -409,6 +411,7 @@ footer {
   max-width: $max-width-text;
   z-index: 2;
   text-shadow: 4px 4px 8px $white;
+  text-wrap: balanced;
 }
 
 .hero-image-wrapper {
@@ -472,6 +475,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-wrap: balanced;
 
   img {
     border-radius: 8px;
@@ -493,6 +497,7 @@ footer {
   box-shadow: 0 2px 8px $shadow-medium;
   border-radius: 12px;
   margin-bottom: 0.5em;
+  text-wrap: balanced;
 
   h4,
   p {
@@ -610,6 +615,7 @@ footer {
 
 .project-info {
   text-align: center;
+  text-wrap: balanced;
 
   h4 {
     margin: 0.5rem 0 0.3rem 0;
@@ -706,12 +712,14 @@ footer {
   text-align: left;
   padding: 2em 4em;
   box-sizing: border-box;
+  text-wrap: balanced;
 }
 
 .project-info-content {
   width: 100%;
   max-width: 680px;
   margin: 0 auto;
+  text-wrap: balanced;
 }
 
 // =========================
@@ -871,6 +879,7 @@ tbody tr {
   background: $white;
   overflow: hidden;
   font-size: 1em;
+  text-wrap: balanced;
 
   tbody {
     td {
@@ -898,11 +907,13 @@ tbody tr {
   width: auto;
   min-width: 200px;
   max-width: 560px;
+  text-wrap: balanced;
 }
 
 .publications-list {
   padding-left: 2em;
   padding-right: 2em;
+  text-wrap: balanced;
 }
 
 // =========================
