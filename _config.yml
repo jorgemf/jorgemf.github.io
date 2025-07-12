@@ -8,4 +8,4 @@ exclude:
   - '.cursorrules'
   - 'ai'
   - 'README.md'
-  - 'cv'
+  - 'cv/'

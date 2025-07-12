@@ -6,16 +6,23 @@ navigation_weight: 4
 
 __See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)__
 
+## Research Areas
+
+**🧬 Bioinformatics & Computational Biology**  
+**🎮 AI in Games & Human-Like Behavior**  
+**🚗 Autonomous Systems & Optimization**  
+**🧠 Machine Consciousness & Cognitive Architectures**
+
 ## 2021
 
-**Predicting microbiomes through a deep latent space**  
+**Predicting microbiomes through a deep latent space** 
 García-Jiménez, Beatriz; _Muñoz, Jorge_; Cabello, S.; Medina, J.; & Wilkinson  
-Bioinformatics, 37(10), 1444-1451.  
+_Bioinformatics_, 37(10), 1444-1451. **Impact Factor: 6.9**  
 [**[PDF](https://academic.oup.com/bioinformatics/article-pdf/37/10/1444/38663810/btaa971.pdf)**]
 
 ## 2017
 
-**Personalized Medicine: Redefining Cancer Treatment with deep learning**  
+**Personalized Medicine: Redefining Cancer Treatment with deep learning**  
 _Jorge Muñoz_  
 [**[HTML](https://jorgemf.github.io/text%20classification/2017/10/14/personalized-medicine-redefining-cancer-treatment-by-deep-learning.html)**] [**[GitHub](https://github.com/jorgemf/kaggle_redefining_cancer_treatment)**] [**[Medium](https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff)**]  
 

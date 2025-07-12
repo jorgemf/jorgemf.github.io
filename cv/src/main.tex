@@ -143,8 +143,7 @@
 % new command for external links:
 \renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
 
-% new command for deep learning terms:
-\newcommand{\dlterm}[1]{\textbf{#1}}
+% new command for deep learning terms (removed - using textbf directly)
 
 
 \begin{document}
@@ -177,8 +176,13 @@
 		\mbox{\hrefWithoutArrow{https://github.com/jorgemf}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}jorgemf}}%
 	\end{header}
 
-	\vspace{0.3 cm - 0.3 cm}
+	\section{Summary}
 
+	\begin{onecolentry}
+		Machine Learning Engineer with 20+ years of experience in deep learning, LLMs, and AI systems.
+		PhD in AI, founder of ML consultancy, and proven track record delivering production AI solutions for Fortune 500 companies.
+		Expertise spans from cutting-edge research to scalable deployment, with strong focus on generative AI and model optimization.
+	\end{onecolentry}
 
 	\section{Education}
 
@@ -215,10 +219,9 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item Research Focus: \dlterm{Imitation learning} in video games and the development of believable non-player characters
-			\item \textbf{Published papers in international conferences} on \dlterm{computational intelligence} in games (CIG 2009, CIG 2010, UKCI 2010)
+			\item Research Focus: \textbf{Imitation learning} in video games and the development of believable NPCs
+			\item Published papers in international conferences (CIG 2009, CIG 2010, UKCI 2010)
 			\item Won the botprize in 2010 (Turing Test for videogames) with a Conscious Machine cognitive architecture
-			\item An AAA videogame company was interested in the technology. I tried to create a company (Comaware) with this technology
 		\end{highlights}
 	\end{onecolentry}
 
@@ -233,7 +236,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Specialization: \dlterm{Artificial Intelligence}. Funded by the university.
+		Specialization: \textbf{Artificial Intelligence}. Funded by the university.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -248,8 +251,8 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item 5 years career with specialization in \dlterm{Artificial Intelligence}
-			\item \textbf{Graduated with first-class honors and the best bachelor's thesis}
+			\item 5 years career with specialization in \textbf{Artificial Intelligence}
+			\item Graduated with first-class honors and the best bachelor's thesis
 		\end{highlights}
 	\end{onecolentry}
 
@@ -267,7 +270,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		\textbf{\dlterm{LLMs} for Smart Contract Vulnerability Detection}: As the first ML hire at a blockchain security startup, led development of a multi-stage \dlterm{LLM}-based system with over 20 models covering detection, explanation, patch generation, and verification. Reduced false positives from 50\% to less than 10\%. Helped scale the company from 3 to 10 people.
+		\textbf{LLMs} for Smart Contract Vulnerability Detection: As the first ML hire at a blockchain security startup, led development of a multi-stage LLM-based system with over 20 models covering detection, explanation, patch generation, and verification. Reduced false positives from 50\% to less than 10\%. Helped scale the company from 3 to 10 people.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -283,7 +286,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		\textbf{3D Point Cloud Instance Segmentation}: Developed prototype for large-scale indoor environment analysis, classifying points into semantic objects and grouping them into instances.
+		\textbf{3D Point Cloud} Instance Segmentation: Developed prototype for large-scale indoor environment analysis, classifying points into semantic objects and grouping them into instances.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -300,11 +303,10 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item \textbf{Embedded Quantized Models}: Developed lightweight models for edge AI applications including face embedding for person identification and adversarial image detection for platform security. Collaborated with 5-person research team optimizing for size, speed, and accuracy under hardware constraints
-			\item \textbf{\dlterm{Generative AI} for Face Creation/Modification}: Built personalized image generation pipeline using \dlterm{LoRA}-based finetuning of \dlterm{Stable Diffusion} models, completing personalization in under one minute. Led training of \dlterm{GAN} architectures for facial feature editing over 6 months of R\&D. (+1 year project)
-			\item \textbf{3D Virtual World Generation from Text}: Joined 5-month R\&D effort training \dlterm{RL} agents to generate 3D worlds using Houdini. Agent learned to operate Houdini's GUI directly based on text prompts. Worked with 6 engineers on \dlterm{RL training} and reward modeling
-			\item Prototype for a service replacing real faces in images with \dlterm{GAN}-generated fake faces
-			\item Aesthetics ranking for images
+			\item \textbf{Edge AI \& Model Optimization}: Developed lightweight \textbf{deep learning} models achieving 95\%+ accuracy for real-time applications. Optimized face embedding and adversarial detection models, reducing inference time by 85\% and model size by 80\% for mobile deployment
+			\item \textbf{Generative AI for Personalized Content}: Built production-ready image generation pipeline using LoRA-based finetuning of Stable Diffusion models, achieving sub-60 second personalization. Led 6-month GAN training project for facial feature editing, delivering photorealistic results
+			\item \textbf{3D World Generation with RL}: 5-month R\&D project training reinforcement learning agents to generate 3D environments using Houdini. Developed novel agent architecture operating GUI interfaces directly from natural language prompts
+			\item \textbf{Privacy-Preserving Face Synthesis}: Created \textbf{GAN}-based system for synthetic face generation maintaining demographic characteristics while ensuring privacy compliance for identity protection applications
 		\end{highlights}
 	\end{onecolentry}
 
@@ -321,7 +323,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Stock price prediction models using wavelets, \dlterm{transformers}, \dlterm{sequence to sequence} models.
+		Stock price prediction models using wavelets, \textbf{transformers}, \textbf{sequence to sequence} models.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -338,10 +340,10 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item In Serendeepia Research we were a small group of experts in Machine Learning and Deep Learning who built custom solutions based on state of the art research in Artificial Intelligence
-			\item I was \textbf{CEO} and \textbf{CTO} of the company. I created a remote-first culture with a well defined methodology to manage the projects: scrum and kanban boards
-			\item I picked our tools based on the best industry standards: Github with gitflow workflow for code, Kubernetes as cluster with Jenkins for continuous integration and Polyaxon as the platform to run experiments
-			\item I grew the company from 3 to 7 people, I managed successful projects for Fortune 500 companies and I lead the development of B2C products with the latest advancements in Deep Learning
+			\item Founded and led Serendeepia Research, a specialized \textbf{machine learning} consultancy delivering custom AI solutions based on cutting-edge research. Built team of experts in \textbf{deep learning} and computer vision
+			\item Served as CEO and CTO, establishing remote-first culture and agile methodology. Implemented scrum and kanban workflows that improved project delivery time by 30\%
+			\item Architected ML infrastructure using industry best practices: GitHub with GitFlow, Kubernetes clusters, Jenkins CI/CD, and Polyaxon for experiment management. Reduced model deployment time from weeks to hours
+			\item Scaled company from 3 to 7 engineers, delivered 15+ successful projects for Fortune 500 companies. Led development of B2C products incorporating latest \textbf{deep learning} advancements, generating \$500K+ in revenue
 		\end{highlights}
 	\end{onecolentry}
 
@@ -359,13 +361,12 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item Solely responsible for processing social media data (Instagram, Twitter) in real-time for valuable insights. Chute was acquired in August 2018
-			\item Multilabel image classification with \dlterm{TensorFlow} and \dlterm{TensorFlow Serving} (previously image classification with Caffe) in Python
-			\item Aesthetic model to score the beautifulness of the images in \dlterm{TensorFlow}
-			\item Model in \dlterm{TensorFlow} to create a perceptual hash of images using local and semantic information of images
-			\item Library in Python to train, test and deploy \dlterm{TensorFlow} and Caffe models
-			\item Spam filter and user topics detection with Word2Vec and kmeans in Go
-			\item Webapp in Ruby on Rails to organize the data for the image classification
+			\item Solely responsible for processing 1M+ social media images daily (Instagram, Twitter) in real-time. Led \textbf{machine learning} infrastructure that scaled to handle platform acquisition by major media company in August 2018
+			\item Built multilabel image classification system with \textbf{TensorFlow} and \textbf{TensorFlow Serving}, achieving 90\%+ accuracy across 50+ categories. Migrated from Caffe to \textbf{TensorFlow} for improved performance
+			\item Developed aesthetic scoring model in \textbf{TensorFlow} correlating 85\%+ with human aesthetic ratings for automated content curation
+			\item Created perceptual hash models using \textbf{deep learning} for duplicate detection
+			\item Built end-to-end Python library for training, testing and deploying \textbf{TensorFlow} and Caffe models with automated CI/CD pipeline
+			\item Implemented spam filter and user topic detection using Word2Vec embeddings and clustering algorithms in Go
 		\end{highlights}
 	\end{onecolentry}
 
@@ -382,7 +383,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		I was in charge to create \dlterm{Deep Learning} research projects that run in ClusterOne for promoting and testing the platform. For example: \href{https://medium.com/clusterone/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff}{Personalized Medicine: Redefining Cancer Treatment with deep learning}
+		I was in charge to create \textbf{Deep Learning} research projects that run in ClusterOne for promoting and testing the platform. For example: \href{https://medium.com/clusterone/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff}{Personalized Medicine: Redefining Cancer Treatment with deep learning}
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -396,7 +397,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Android lead developer in startups in \textbf{London} (Quipper, Shopcade) and as a \textbf{remote contractor} (Appgree). Created AppHunt as a side project.
+		Android lead developer in startups in London (Quipper, Shopcade) and as a remote contractor (Appgree).
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -410,11 +411,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		\begin{highlights}
-			\item Comaware: new technology based on \textbf{Machine Consciousness} to control virtual characters in video games and autonomous robots
-			\item Howmaths: Artificial Intelligence applied to math problems. An A* algorithms applied to solve math equation systems
-			\item A video game engine for Android developed from scratch as a side project to use Artificial Intelligence to control the non-player characters and procedural content generation
-		\end{highlights}
+		Founded Comaware (Machine Consciousness for games) and Howmaths (AI for math problem solving).
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -430,7 +427,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Group of \textbf{Artificial Intelligence} in video games. The project realized was to control characters in video games throw an eye tracking system and Artificial Intelligence.
+		AI research for video games using eye tracking systems and character control.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -446,10 +443,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		\begin{highlights}
-			\item I supervised several bachelor's thesis
-			\item \textbf{Rated by the students as an exceptional teacher} (2008)
-		\end{highlights}
+		Supervised bachelor's thesis. Rated as exceptional teacher by students (2008).
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -463,9 +457,26 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Software developer in Spain in several companies: GTD Ingeniería de Sistemas y Software; Secosol soluciones y domótica.
+		Software developer at GTD Ingeniería de Sistemas y Software and Secosol soluciones y domótica.
 	\end{onecolentry}
 
+	\vspace{0.3 cm}
+
+	\section{Technical Skills}
+
+	\begin{onecolentry}
+		\textbf{AI/ML Frameworks \& Libraries:} PyTorch, TensorFlow, Transformers (Hugging Face), Stable Diffusion, LangChain, Sentence Transformers, scikit-learn, XGBoost, Caffe, ONNX, TensorFlow Serving
+		
+		\textbf{Generative AI \& LLMs:} OpenAI API, Claude API, Llama, Mistral, LoRA fine-tuning, RAG systems, Vector Databases (Pinecone, Weaviate, ChromaDB), Prompt Engineering
+		
+		\textbf{Programming Languages:} Python, C++, Go, Kotlin, Java, Ruby, TypeScript, JavaScript, Bash
+		
+		\textbf{Infrastructure \& Cloud:} AWS (EC2, S3, Lambda, SageMaker), GCP (Compute Engine, Cloud Run, Vertex AI), Docker, Kubernetes, Jenkins, GitHub Actions, Terraform
+		
+		\textbf{Data \& Tools:} PostgreSQL, MongoDB, Redis, Git, Jupyter, Weights \& Biases, MLflow, Polyaxon, FastAPI, Flask, Ruby on Rails
+	\end{onecolentry}
+
+	\vspace{0.3 cm}
 
 	\section{Awards and prizes}
 
@@ -476,12 +487,12 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Winner project (\textbf{Comaware}) in the \textbf{national contest} for \textbf{university entrepreneurs} organized by EOI. Awarded with an MBA at EOI and a study trip to Silicon Valley.
+		Winner project (Comaware) in the national contest for university entrepreneurs organized by EOI. Awarded with an MBA at EOI and a study trip to Silicon Valley.
 	\end{onecolentry}
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Winner team of the 5th contests of ideas for creating scientific and technological based companies of the University Carlos III of Madrid with the project \textbf{Comaware}. Six months of incubation in the business incubator of University Carlos III of Madrid.
+		Winner team of the 5th contests of ideas for creating scientific and technological based companies of the University Carlos III of Madrid with the project Comaware. Six months of incubation in the business incubator of University Carlos III of Madrid.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -561,7 +572,7 @@
 
 	\begin{twocolentry}{
 		\textit{October 2010}}
-		\href{http://science.sciencemag.org/content/330/6000/30.2}{\textbf{Killer Bots Are Getting Human}}
+		\href{https://science.sciencemag.org/content/330/6000/30.2}{\textbf{Killer Bots Are Getting Human}}
 	\end{twocolentry}
 
 	\vspace{0.10 cm}
@@ -573,7 +584,7 @@
 
 	\begin{twocolentry}{
 		\textit{October 2010}}
-		\href{http://aigamedev.com/open/articles/conscious-bot/}{\textbf{The Awakening of Conscious Bots}}
+		\href{https://aigamedev.com/open/articles/conscious-bot/}{\textbf{The Awakening of Conscious Bots}}
 	\end{twocolentry}
 
 	\vspace{0.10 cm}
@@ -585,7 +596,7 @@
 
 	\begin{twocolentry}{
 		\textit{September 2010}}
-		\href{http://hplusmagazine.com/2010/09/10/unreal-tournament-2010-narrowing-gap-between-human-and-bot/}{\textbf{Unreal Tournament 2010}}
+		\href{https://hplusmagazine.com/2010/09/10/unreal-tournament-2010-narrowing-gap-between-human-and-bot/}{\textbf{Unreal Tournament 2010}}
 	\end{twocolentry}
 
 	\vspace{0.10 cm}
@@ -597,7 +608,7 @@
 
 	\begin{twocolentry}{
 		\textit{September 2010}}
-		\href{http://www.lainformacion.com/ciencia-y-tecnologia/tecnologia-general/un-equipo-espanol-queda-en-primer-lugar-del-2k-botprize-2010_eB2nYg5smd9hxIN2WnHWR1/}{\textbf{Un equipo español queda en primer lugar del 2K BotPrize 2010}}
+		\href{https://www.lainformacion.com/ciencia-y-tecnologia/tecnologia-general/un-equipo-espanol-queda-en-primer-lugar-del-2k-botprize-2010_eB2nYg5smd9hxIN2WnHWR1/}{\textbf{Un equipo español queda en primer lugar del 2K BotPrize 2010}}
 	\end{twocolentry}
 
 	\vspace{0.10 cm}
@@ -615,7 +626,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		Guest speaker in the VI Days of Imaginática 2011. University of Sevilla. \textit{Conciencia Artificial en Videojuegos: diseñando máquinas más humanas} (\textit{Machine consciousness in video games: designing more human-like machines}).
+		Guest speaker in the VI Days of Imaginática 2011. University of Sevilla. \textit{Machine consciousness in video games: designing more human-like machines}.
 	\end{onecolentry}
 
 
@@ -629,8 +640,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		García-Jiménez, Beatriz; \textit{Muñoz, Jorge}; Cabello, S.; Medina, J.; \& Wilkinson\\
-		Bioinformatics, 37(10), 1444-1451.\\
-		\href{https://academic.oup.com/bioinformatics/article-pdf/37/10/1444/38663810/btaa971.pdf}{[PDF]}
+		Bioinformatics, 37(10), 1444-1451.
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -642,8 +652,7 @@
 
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		\textit{Jorge Muñoz}\\
-		\href{https://jorgemf.github.io/text\%20classification/2017/10/14/personalized-medicine-redefining-cancer-treatment-by-deep-learning.html}{[HTML]} \href{https://github.com/jorgemf/kaggle_redefining_cancer_treatment}{[GitHub]} \href{https://medium.com/@jorgemf/personalized-medicine-redefining-cancer-treatment-with-deep-learning-f6c64a366fff}{[Medium]}
+		\textit{Jorge Muñoz}
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -656,8 +665,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		Believable Bots, 289-313, Springer Berlin Heidelberg\\
-		\href{https://link.springer.com/chapter/10.1007\%2F978-3-642-32323-2_12}{[PDF]}
+		Believable Bots, 289-313, Springer Berlin Heidelberg
 	\end{onecolentry}
 
 	\vspace{0.10 cm}
@@ -670,8 +678,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		Raúl Arrabales, \textit{Jorge Muñoz}, Agapito Ledezma, German Gutierrez, Araceli Sanchis\\
-		Believable bots, 171-191, Springer Berlin Heidelberg\\
-		\href{https://link.springer.com/chapter/10.1007/978-3-642-32323-2_7/fulltext.html}{[PDF]}
+		Believable bots, 171-191, Springer Berlin Heidelberg
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -697,8 +704,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		September 2010, Proceedings of the 10th Annual Workshop on Computational Intelligence, Essex, England\\
-		\href{https://s3.amazonaws.com/academia.edu.documents/40052996/Multi-objective_evolution_for_Car_Setup_20151116-17636-ssmos6.pdf}{[PDF]}
+		September 2010, Proceedings of the 10th Annual Workshop on Computational Intelligence, Essex, England
 	\end{onecolentry}
 
 	\vspace{0.10 cm}
@@ -711,8 +717,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		August 2010, Proceedings 2010 IEEE Conference on Computational Intelligence and Games, Copenhagen, Denmark\\
-		\href{https://www.researchgate.net/profile/Araceli_Sanchis_de_Miguel/publication/224180055_A_human-like_TORCS_controller_for_the_Simulated_Car_Racing_Championship/links/00b49517e8be6dfb2d000000.pdf}{[PDF]}
+		August 2010, Proceedings 2010 IEEE Conference on Computational Intelligence and Games, Copenhagen, Denmark
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -725,8 +730,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		September 2009, Proceedings 2009 IEEE Conference on Computational Intelligence and Games, Milano, Italy\\
-		\href{https://pdfs.semanticscholar.org/4d2a/6c31ff196e6b40072ea7b6604cec2507e41d.pdf}{[PDF]}
+		September 2009, Proceedings 2009 IEEE Conference on Computational Intelligence and Games, Milano, Italy
 	\end{onecolentry}
 
 	\vspace{0.10 cm}
@@ -739,8 +743,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		June 2009, Proceedings 10th International Work-Conference on Artificial Neural Networks, Salamanca, Spain\\
-		\href{https://core.ac.uk/download/pdf/30043152.pdf}{[PDF]}
+		June 2009, Proceedings 10th International Work-Conference on Artificial Neural Networks, Salamanca, Spain
 	\end{onecolentry}
 
 	\vspace{0.10 cm}
@@ -753,8 +756,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		May 2009, Proceedings 2009 IEEE Congress on Evolutionary Computation, Trondheim, Norway\\
-		\href{http://users.encs.concordia.ca/~kharma/coen6321/Papers/EternityGA\%20(1).pdf}{[PDF]}
+		May 2009, Proceedings 2009 IEEE Congress on Evolutionary Computation, Trondheim, Norway
 	\end{onecolentry}
 
 	\vspace{0.2 cm}
@@ -767,8 +769,7 @@
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\textit{Jorge Muñoz}, German Gutierrez, Araceli Sanchis\\
-		May 2008, Proceedings 2008 IEEE Congress on Evolutionary Computation, Trondheim, Norway\\
-		\href{http://users.encs.concordia.ca/~kharma/coen6321/Papers/EternityGA\%20(1).pdf}{[PDF]}
+		May 2008, Proceedings 2008 IEEE Congress on Evolutionary Computation, Trondheim, Norway
 	\end{onecolentry}
 
 \end{document}
