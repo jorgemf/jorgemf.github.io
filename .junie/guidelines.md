@@ -1,1 +1,0 @@
-Read `ai/INSTRUCTIONS.md` before anything else.
