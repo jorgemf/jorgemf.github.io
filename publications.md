@@ -6,13 +6,6 @@ navigation_weight: 4
 
 __See them at [Google Scholar](https://scholar.google.es/citations?hl=en&user=aHsYF-0AAAAJ&view_op=list_works&sortby=pubdate)__
 
-## Research Areas
-
-**🧬 Bioinformatics & Computational Biology**  
-**🎮 AI in Games & Human-Like Behavior**  
-**🚗 Autonomous Systems & Optimization**  
-**🧠 Machine Consciousness & Cognitive Architectures**
-
 ## 2021
 
 **Predicting microbiomes through a deep latent space** 

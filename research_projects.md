@@ -14,6 +14,16 @@ navigation_weight: 4
 
 <div class="projects-list-alt">
   <div class="project-block reverse">
+    <div class="project-image-alt"><img src="/assets/projects/ycombinator_predictions.jpg" alt="YCombinator Startup Success Prediction project image"/></div>
+    <div class="project-info-alt">
+      <div class="project-info-content">
+      <h4>YCombinator Startup Success Prediction</h4>
+      <p>Building predictive machine learning models to forecast the success of Y Combinator startups based on founder attributes and characteristics. The project analyzes historical data from YC batches to identify patterns and features that correlate with startup success, providing data-driven insights for early-stage investment decisions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block">
     <div class="project-image-alt"><img src="/assets/projects/llmsbitcoin.jpg" alt="LLM Smart Contract Vulnerability Detection project image"/></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -30,7 +40,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block">
+  <div class="project-block reverse">
     <div class="project-image-alt"><img src="/assets/projects/quantization.jpg" alt="Embedded Quantized Models project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -46,7 +56,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block reverse">
+  <div class="project-block">
     <div class="project-image-alt"><img src="/assets/projects/genai.jpg" alt="Gen AI project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -60,7 +70,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block">
+  <div class="project-block reverse">
     <div class="project-image-alt"><img src="/assets/projects/difussion.gif" alt="Stable Diffusion project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -71,7 +81,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block reverse">
+  <div class="project-block">
     <div class="project-image-alt"><img src="/assets/projects/hashnerf.gif" alt="HashNeRF project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -82,7 +92,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block">
+  <div class="project-block reverse">
     <div class="project-image-alt"><img src="/assets/projects/3dpointcloud.jpg" alt="3D Point Cloud project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -92,7 +102,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block reverse">
+  <div class="project-block">
     <div class="project-image-alt"><img src="/assets/projects/3dworldgeneration.jpg" alt="3D world generation Models project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
@@ -102,7 +112,7 @@ navigation_weight: 4
     </div>
   </div>
 
-  <div class="project-block">
+  <div class="project-block reverse">
     <div class="project-image-alt"><img src="/assets/projects/transformer.jpg" alt="LLM transformer project image" /></div>
     <div class="project-info-alt">
       <div class="project-info-content">
